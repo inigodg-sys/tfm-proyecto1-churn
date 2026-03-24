@@ -1,0 +1,5 @@
+Modelo,Accuracy,Precision,Recall,ROC_AUC,PR_AUC,Recall@Top10%
+Baseline mayoritario,0.7346,0.0,0.0,,,0.1096
+Regresión logística,0.8055,0.6572,0.5588,0.842,0.6337,0.2781
+Random Forest,0.7991,0.6542,0.516,0.836,0.6393,0.2888
+HistGradientBoosting,0.7942,0.64,0.5134,0.832,0.6392,0.2754
