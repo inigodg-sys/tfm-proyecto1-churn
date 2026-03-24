@@ -1,0 +1,13 @@
+feature,mean_contrib_top10,mean_contrib_rest,diff_top10_vs_rest,group_effect,topk_fraction,topk_size,min_probability_in_topk
+num__TotalCharges,-0.399146,0.018613,-0.417759,Aleja del Top10 riesgo,0.1,140,0.6615
+num__MonthlyCharges,-0.3461,0.056813,-0.402913,Aleja del Top10 riesgo,0.1,140,0.6615
+cat__Partner_No,-0.117384,-0.076968,-0.040416,Aleja del Top10 riesgo,0.1,140,0.6615
+cat__StreamingTV_No,-0.120075,-0.082263,-0.037813,Aleja del Top10 riesgo,0.1,140,0.6615
+cat__StreamingMovies_No,-0.100973,-0.081909,-0.019064,Aleja del Top10 riesgo,0.1,140,0.6615
+cat__SeniorCitizen_1,-0.026343,-0.009501,-0.016842,Aleja del Top10 riesgo,0.1,140,0.6615
+cat__DeviceProtection_No,-0.020948,-0.01066,-0.010288,Aleja del Top10 riesgo,0.1,140,0.6615
+cat__Dependents_No,-0.030768,-0.021566,-0.009202,Aleja del Top10 riesgo,0.1,140,0.6615
+cat__PhoneService_Yes,-0.151291,-0.143491,-0.007799,Aleja del Top10 riesgo,0.1,140,0.6615
+cat__DeviceProtection_Yes,0.006381,0.010803,-0.004422,Aleja del Top10 riesgo,0.1,140,0.6615
+cat__gender_Male,-0.071432,-0.067983,-0.003449,Aleja del Top10 riesgo,0.1,140,0.6615
+cat__gender_Female,-0.072071,-0.076086,0.004015,Caracteriza Top10 riesgo,0.1,140,0.6615
