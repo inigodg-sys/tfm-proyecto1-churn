@@ -1,0 +1,4 @@
+Escenario,TopK,Clientes_contactados,Churners_totales_test,Recall@TopK_modelo,Recall@TopK_azar,Churners_capturados_modelo,Churners_capturados_azar,Valor_por_cliente_retenido_V,Coste_por_contacto_C,Tasa_exito_campaña_r,Impacto_neto_modelo,Impacto_neto_azar,Impacto_incremental_modelo
+Conservador,0.1,140,374,0.2781,0.1096,104,41,300,10,0.2,4840.0,1060.0,3780.0
+Base,0.1,140,374,0.2781,0.1096,104,41,500,15,0.25,10900.0,3025.0,7875.0
+Agresivo,0.1,140,374,0.2781,0.1096,104,41,800,20,0.3,22160.0,7040.0,15120.0
