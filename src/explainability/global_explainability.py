@@ -16,7 +16,7 @@ MODEL_PATH = Path("models/logistic_pipeline.joblib")
 
 FULL_TABLE_PATH = Path("reports/tables/odds_ratio_full.csv")
 SUMMARY_TABLE_PATH = Path("reports/tables/odds_ratio_summary.csv")
-PLOT_PATH = Path("reports/figures/odds_ratio_plot.png")
+PLOT_PATH = Path("reports/figures/models/odds_ratio_plot.png")
 
 
 SELECTED_FEATURES = [
