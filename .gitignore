@@ -1,8 +1,8 @@
 .venv/
 __pycache__/
 *.pyc
-
-# data
-data/raw/*.csv
-data/processed/
-reports/figures/
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+*.joblib
+*.pkl
