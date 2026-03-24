@@ -1,0 +1,9 @@
+variable,feature,coefficient,odds_ratio,direction,interpretation
+Tenure (antigüedad del cliente),num__tenure,-1.255,0.285,Reduce riesgo de churn,"Una mayor antigüedad del cliente se asocia con una reducción muy marcada de los odds de churn. La interpretación corresponde a un incremento de una desviación estándar, ya que la variable fue escalada."
+Contrato: Two year,cat__Contract_Two year,-0.759,0.468,Reduce riesgo de churn,Tener un contrato de dos años se asocia con una reducción clara del riesgo estimado de churn.
+Contrato: Month-to-month,cat__Contract_Month-to-month,0.586,1.797,Aumenta riesgo de churn,El contrato mensual se asocia con un aumento importante del riesgo estimado de churn.
+InternetService: Fiber optic,cat__InternetService_Fiber optic,0.648,1.912,Aumenta riesgo de churn,La categoría Fiber optic se asocia con mayores odds de churn dentro del modelo multivariable.
+InternetService: DSL,cat__InternetService_DSL,-0.644,0.525,Reduce riesgo de churn,La categoría DSL se asocia con menor riesgo estimado de churn dentro del modelo.
+PaymentMethod: Electronic check,cat__PaymentMethod_Electronic check,0.206,1.228,Aumenta riesgo de churn,Electronic check se asocia con un aumento moderado del riesgo estimado de churn.
+MonthlyCharges,num__MonthlyCharges,-0.601,0.548,Reduce riesgo de churn,"El efecto de MonthlyCharges cambia respecto al análisis bivariante, lo que sugiere interacción o redundancia con otras variables del modelo."
+TotalCharges,num__TotalCharges,0.533,1.703,Aumenta riesgo de churn,"TotalCharges mantiene una asociación positiva, pero su interpretación debe hacerse con cautela por su relación estructural con tenure y MonthlyCharges."
