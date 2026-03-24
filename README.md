@@ -195,9 +195,8 @@ La regresión logística permitió interpretar el efecto de las variables median
 - `PaymentMethod: Electronic check` → aumenta riesgo moderadamente
 
 <p align="center">
-  <img src="reports/figures/explainability/odds_ratio_plot.png" width="80%" alt="Odds Ratios">
+  <img src="reports/figures/models/odds_ratio_plot.png" width="80%" alt="Odds Ratios">
 </p>
-*(Nota: Pippi ha corregido la ruta asumiendo que el gráfico está en la carpeta explainability)*
 
 ### 8.2 Explicabilidad local
 Se analizaron casos concretos para explicar:
