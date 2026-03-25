@@ -258,6 +258,7 @@ Con la misma capacidad operativa, el modelo identifica significativamente más c
 ## 10. Despliegue conceptual en producción
 
 El proyecto no implementa una plataforma completa de MLOps, pero sí plantea una arquitectura conceptual realista para producción.
+Para una descripción más detallada del despliegue conceptual, ver [`docs/deployment_concept.md`](docs/deployment_concept.md).
 
 ### Componentes clave
 - notebooks convertidos progresivamente a scripts reutilizables,
@@ -350,6 +351,14 @@ python -m src.business.plot_business_impact
 ```
 
 ---
+## Notebooks
+
+Para una versión más didáctica y secuencial del proyecto, el repositorio incluye los siguientes notebooks:
+
+- [`01_data_understanding_eda.ipynb`](notebooks/01_data_understanding_eda.ipynb): carga, limpieza y análisis exploratorio del dataset.
+- [`02_modeling_and_evaluation.ipynb`](notebooks/02_modeling_and_evaluation.ipynb): baselines, entrenamiento, comparación de modelos y selección del modelo final.
+- [`03_explainability.ipynb`](notebooks/03_explainability.ipynb): explicabilidad global, local y agrupada del modelo seleccionado.
+- [`04_business_impact_and_threshold.ipynb`](notebooks/04_business_impact_and_threshold.ipynb): análisis de thresholds, priorización operativa e impacto de negocio.
 
 ## 13. Conclusión final
 

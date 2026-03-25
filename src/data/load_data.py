@@ -2,7 +2,10 @@ from pathlib import Path
 import pandas as pd
 
 
-DEFAULT_RAW_DATA_PATH = Path("data/raw/WA_Fn-UseC_-Telco-Customer-Churn.csv")
+# Raíz del proyecto: subimos desde src/data/load_data.py hasta la carpeta principal
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+
+DEFAULT_RAW_DATA_PATH = PROJECT_ROOT / "data" / "raw" / "WA_Fn-UseC_-Telco-Customer-Churn.csv"
 
 
 def load_telco_data(path: str | Path = DEFAULT_RAW_DATA_PATH) -> pd.DataFrame:
@@ -27,7 +30,13 @@ def load_telco_data(path: str | Path = DEFAULT_RAW_DATA_PATH) -> pd.DataFrame:
     path = Path(path)
 
     if not path.exists():
-        raise FileNotFoundError(f"Dataset not found at: {path}")
+        raw_dir = PROJECT_ROOT / "data" / "raw"
+        available_files = list(raw_dir.glob("*")) if raw_dir.exists() else []
+        available_names = [f.name for f in available_files]
 
-    df = pd.read_csv(path)
-    return df
+        raise FileNotFoundError(
+            f"Dataset not found at: {path}\n"
+            f"Available files in data/raw: {available_names}"
+        )
+
+    return pd.read_csv(path)
