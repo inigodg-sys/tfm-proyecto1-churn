@@ -353,12 +353,14 @@ python -m src.business.plot_business_impact
 ---
 ## Notebooks
 
-Para una versión más didáctica y secuencial del proyecto, el repositorio incluye los siguientes notebooks:
+Para facilitar la revisión directa en GitHub, el repositorio incluye versiones renderizadas en Markdown de los notebooks originales:
 
-- [`01_data_understanding_eda.ipynb`](notebooks/01_data_understanding_eda.ipynb): carga, limpieza y análisis exploratorio del dataset.
-- [`02_modeling_and_evaluation.ipynb`](notebooks/02_modeling_and_evaluation.ipynb): baselines, entrenamiento, comparación de modelos y selección del modelo final.
-- [`03_explainability.ipynb`](notebooks/03_explainability.ipynb): explicabilidad global, local y agrupada del modelo seleccionado.
-- [`04_business_impact_and_threshold.ipynb`](notebooks/04_business_impact_and_threshold.ipynb): análisis de thresholds, priorización operativa e impacto de negocio.
+- [01 - Data Understanding & EDA](reports/notebooks_rendered/01_data_understanding_eda.md): carga, limpieza y análisis exploratorio del dataset.
+- [02 - Modeling and Evaluation](reports/notebooks_rendered/02_modeling_and_evaluation.md): baselines, entrenamiento, comparación de modelos y selección del modelo final.
+- [03 - Explainability](reports/notebooks_rendered/03_explainability.md): explicabilidad global, local y agrupada del modelo seleccionado.
+- [04 - Business Impact and Threshold](reports/notebooks_rendered/04_business_impact_and_threshold.md): análisis de thresholds, priorización operativa e impacto de negocio.
+
+Los notebooks ejecutables originales se mantienen en la carpeta [`notebooks/`](notebooks/) para reproducibilidad técnica.
 
 ## 13. Conclusión final
 
@@ -377,15 +379,5 @@ La solución final basada en:
 
 constituye una propuesta defendible tanto desde el punto de vista analítico como desde la perspectiva operativa.
 
-## Rendered notebooks for GitHub viewing
 
-The original executable Jupyter notebooks are available in the `/notebooks` directory.
-
-Because GitHub's native `.ipynb` preview can occasionally fail, stable Markdown-rendered versions are also provided here:
-
-- [Rendered notebooks index](reports/notebooks_rendered/README.md)
-- [01 ? Data Understanding & EDA](reports/notebooks_rendered/01_data_understanding_eda.md)
-- [02 ? Modeling and Evaluation](reports/notebooks_rendered/02_modeling_and_evaluation.md)
-- [03 ? Explainability](reports/notebooks_rendered/03_explainability.md)
-- [04 ? Business Impact and Threshold](reports/notebooks_rendered/04_business_impact_and_threshold.md)
 
