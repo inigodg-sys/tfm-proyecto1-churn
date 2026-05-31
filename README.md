@@ -376,3 +376,16 @@ La solución final basada en:
 - **priorización del top 10% de clientes con mayor riesgo**
 
 constituye una propuesta defendible tanto desde el punto de vista analítico como desde la perspectiva operativa.
+
+## Rendered notebooks for GitHub viewing
+
+The original executable Jupyter notebooks are available in the `/notebooks` directory.
+
+Because GitHub's native `.ipynb` preview can occasionally fail, stable Markdown-rendered versions are also provided here:
+
+- [Rendered notebooks index](reports/notebooks_rendered/README.md)
+- [01 ? Data Understanding & EDA](reports/notebooks_rendered/01_data_understanding_eda.md)
+- [02 ? Modeling and Evaluation](reports/notebooks_rendered/02_modeling_and_evaluation.md)
+- [03 ? Explainability](reports/notebooks_rendered/03_explainability.md)
+- [04 ? Business Impact and Threshold](reports/notebooks_rendered/04_business_impact_and_threshold.md)
+
